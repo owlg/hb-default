@@ -124,7 +124,7 @@ namespace HREngine.Bots
             {
 
                 HREngine.Bots.Settings.Instance.useSecretsPlayArround = secrets;
-                Helpfunctions.Instance.ErrorLog("playing arround secrets is " + secrets);
+                Helpfunctions.Instance.ErrorLog("playing around secrets is " + secrets);
             }
 
 
@@ -221,25 +221,25 @@ def Execute():
         /// <summary> The name of the routine. </summary>
         public string Name
         {
-            get { return "DefaultRoutine"; }
+            get { return "NewDefaultRoutine"; }
         }
 
         /// <summary> The description of the routine. </summary>
         public string Description
         {
-            get { return "The default routine for Hearthbuddy."; }
+            get { return "The newly made default routine for Hearthbuddy."; }
         }
 
         /// <summary>The author of this routine.</summary>
         public string Author
         {
-            get { return "Bossland GmbH"; }
+            get { return "author"; }
         }
 
         /// <summary>The version of this routine.</summary>
         public string Version
         {
-            get { return "0.0.1.1"; }
+            get { return "0.0.1.1"; } /// remains the same as default (un-new) version
         }
 
         #endregion
